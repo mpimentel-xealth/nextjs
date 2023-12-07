@@ -70,7 +70,7 @@ export default async function InvoicesTable({
                   Date
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Status
+                  Update alt for image!
                 </th>
                 <th scope="col" className="relative py-3 pl-6 pr-3">
                   <span className="sr-only">Edit</span>
@@ -85,6 +85,7 @@ export default async function InvoicesTable({
                 >
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
                     <div className="flex items-center gap-3">
+                      Update the alt here!
                       <Image
                         alt={`${invoice.email} invoice`}
                         src={invoice.image_url}
