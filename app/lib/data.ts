@@ -17,6 +17,10 @@ export async function fetchRevenue() {
   noStore();
 
   try {
+    // Artificially delay a response for demo purposes.
+    // Don't do this in production :)
+    await new Promise((resolve) => setTimeout(resolve, 1500));
+
     const data = await sql<Revenue>`SELECT * FROM revenue`;
 
     return data.rows;
@@ -27,6 +31,10 @@ export async function fetchRevenue() {
 }
 
 export async function fetchLatestInvoices() {
+      // Artificially delay a response for demo purposes.
+    // Don't do this in production :)
+  await new Promise((resolve) => setTimeout(resolve, 750));
+
   noStore();
 
   try {
