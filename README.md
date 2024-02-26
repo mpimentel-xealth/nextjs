@@ -9,3 +9,16 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 ```bash
 ./devserver.sh
 ```
+
+### Example user
+
+```bash
+user@nextmail.com
+123456
+```
+
+### Vercel account
+
+`https://vercel.com/masons-projects-cdbc62ee`
+
+Login using GitHub SSO, mason.pimentel@xealth.io
